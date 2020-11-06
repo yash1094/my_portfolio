@@ -6,15 +6,17 @@ const NavBar = () => (
           src="https://bulma.io/images/bulma-logo.png"
           width="112"
           height="28"
+          alt="bulma"
         />
       </a>
-
       <a
         role="button"
         class="navbar-burger burger is-active"
         aria-label="menu"
         aria-expanded="false"
         data-target="navbarBasicExample"
+        // eslint-disable-next-line
+        href="#"
       >
         <span aria-hidden="true"></span>
         <span aria-hidden="true"></span>
