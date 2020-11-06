@@ -1,10 +1,4 @@
 import "./App.scss";
-import About from "./components/About";
-import Contact from "./components/Contact";
-import Education from "./components/Education";
-import Home from "./components/Home";
-import NavBar from "./components/Navbar";
-import Portfolio from "./components/Porfolio";
 import Body from "./components/Body";
 
 function App() {
