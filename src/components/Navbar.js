@@ -9,19 +9,19 @@ const NavBar = () => (
           alt="bulma"
         />
       </a>
-      <a
+      {/* <a
         role="button"
         class="navbar-burger burger is-active"
         aria-label="menu"
         aria-expanded="false"
         data-target="navbarBasicExample"
         // eslint-disable-next-line
-        href="#"
+        href="/"
       >
         <span aria-hidden="true"></span>
         <span aria-hidden="true"></span>
         <span aria-hidden="true"></span>
-      </a>
+      </a> */}
     </div>
 
     <div id="navbarBasicExample" class="navbar-menu">

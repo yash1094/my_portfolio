@@ -1,20 +1,43 @@
+import "./Contact.Components.scss";
+import Heading from "./Heading";
+
 const Contact = () => (
   <div id="contact" className="contact section">
-    <h1 className="title">Contact</h1>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas
-      convallis nisl quis vehicula. Aenean pharetra leo blandit nibh iaculis,
-      sed hendrerit risus egestas. Nunc vitae tortor id diam elementum tempor.
-      Vestibulum nec ultrices odio, vel euismod neque. Cras vel quam vel mi
-      congue tincidunt in quis risus. Etiam in erat ac arcu ornare bibendum. Ut
-      commodo mollis ultricies. Aenean sagittis ac nisi gravida sodales. Aliquam
-      nisi eros, accumsan quis euismod ac, egestas in neque. Curabitur
-      ullamcorper neque arcu. Nunc ut erat id mauris vestibulum mollis vitae non
-      urna. Suspendisse eu vestibulum quam, eu bibendum lorem. Cras pellentesque
-      ipsum risus, et mollis tortor sagittis nec. Cras sit amet neque sit amet
-      ligula pellentesque tristique. Interdum et malesuada fames ac ante ipsum
-      primis in faucibus.
-    </p>
+    <Heading
+      title="Contact"
+      subtitle="Feel free to reach out through any platforms listed below"
+    />
+
+    <div className="columns ctn">
+      <div className="column">
+        <a href="mailto:yash1094@gmail.com">
+          <i className="fas fa-envelope fa-2x"></i>
+        </a>
+      </div>
+      <div className="column">
+        <a
+          href="https://www.linkedin.com/in/yash-pandya-8624b4a8/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <i className="fab fa-linkedin fa-2x"></i>
+        </a>
+      </div>
+      <div className="column">
+        <a
+          href="https://twitter.com/yoshiboi1094"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <i className="fab fa-twitter fa-2x"></i>
+        </a>
+      </div>
+      <div className="column">
+        <a href="https://github.com/yash1094/" target="_blank" rel="noreferrer">
+          <i className="fab fa-github fa-2x"></i>
+        </a>
+      </div>
+    </div>
   </div>
 );
 

@@ -23,18 +23,11 @@ $input-shadow: none;
 $footer-background-color: rgb(212, 206, 206);
 
 // Import only what you need from Bulma
-@import "../node_modules/bulma/sass/utilities/_all.sass";
-@import "../node_modules/bulma/sass/base/_all.sass";
-@import "../node_modules/bulma/sass/elements/button.sass";
-@import "../node_modules/bulma/sass/elements/container.sass";
-@import "../node_modules/bulma/sass/elements/title.sass";
-@import "../node_modules/bulma/sass/form/_all.sass";
-@import "../node_modules/bulma/sass/components/navbar.sass";
-@import "../node_modules/bulma/sass/layout/hero.sass";
-@import "../node_modules/bulma/sass/layout/section.sass";
-@import "../node_modules/bulma/sass/layout/footer.sass";
-@import "../node_modules/bulma/sass/grid/columns.sass";
-@import "../node_modules/bulma/sass/elements/image.sass";
+@import "../node_modules/bulma/bulma.sass";
+
+body {
+  text-align: center;
+}
 
 .section {
   margin-bottom: 2rem;
@@ -46,4 +39,8 @@ $footer-background-color: rgb(212, 206, 206);
 
 .title {
   padding-bottom: 1rem;
+}
+
+.columns {
+  margin-top: 3rem;
 }
