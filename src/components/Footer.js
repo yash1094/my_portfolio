@@ -2,8 +2,8 @@
 
 const Footer = () => (
   <div>
-    <footer class="footer">
-      <div class="content has-text-centered">
+    <footer className="footer">
+      <div className="content has-text-centered">
         <p>
           The website content was created by Yash Pandya. It uses{" "}
           <strong>Bulma</strong> by{" "}

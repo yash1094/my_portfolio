@@ -24,7 +24,7 @@ const About = () => (
           <a href="#contact">Let's connect</a>
         </div>
 
-        <button class="button is-primary">Resume</button>
+        <button className="button is-primary">Resume</button>
       </div>
     </div>
   </div>

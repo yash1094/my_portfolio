@@ -11,21 +11,21 @@ const Portfolio = () => (
       <div className="column is-full">
         <div className="box">
           <div className="columns is-vcentered">
-            <div class="column">
+            <div className="column">
               <figure className="image project-img-container">
                 <img src={crwn_clothing} alt="cwrn_clothing screenshot" />
               </figure>
             </div>
-            <div class="column">
+            <div className="column">
               <div className="content has-text-left">
                 <h3>Dummy e-commerce site</h3>
                 <p>
                   A Fully functioning mock ecommerce site to sell clothing.
-                  <ul style={{ listStyleType: "none" }}>
+                  {/* <ul style={{ listStyleType: "none" }}>
                     Technologies stack used to build this app:
                     <li>React</li>
                     <li>Stripe API</li>
-                  </ul>
+                  </ul> */}
                 </p>
               </div>
             </div>

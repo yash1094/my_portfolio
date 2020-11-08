@@ -20,7 +20,7 @@ $fullhd-enabled: false;
 $control-border-width: 2px;
 $input-border-color: transparent;
 $input-shadow: none;
-$footer-background-color: rgb(212, 206, 206);
+$footer-background-color: rgba(212, 206, 206, 0.178);
 
 // Import only what you need from Bulma
 @import "../node_modules/bulma/bulma.sass";

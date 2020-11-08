@@ -1,45 +1,43 @@
-const NavBar = () => (
-  <nav class="navbar" role="navigation" aria-label="main navigation">
-    <div class="navbar-brand">
-      <a class="navbar-item" href="https://bulma.io">
-        <img
-          src="https://bulma.io/images/bulma-logo.png"
-          width="112"
-          height="28"
-          alt="bulma"
-        />
-      </a>
-      {/* <a
-        role="button"
-        class="navbar-burger burger is-active"
+import "./Navbar.Component.scss";
+
+const Navbar = () => (
+  <nav
+    className="navbar is-fixed-top"
+    role="navigation"
+    aria-label="main navigation"
+  >
+    <div className="navbar-brand">
+      <button
+        className="navbar-burger burger"
         aria-label="menu"
-        aria-expanded="false"
+        aria-expanded="true"
         data-target="navbarBasicExample"
-        // eslint-disable-next-line
-        href="/"
+        onClick={() => {
+          console.log("hello");
+        }}
       >
         <span aria-hidden="true"></span>
         <span aria-hidden="true"></span>
         <span aria-hidden="true"></span>
-      </a> */}
+      </button>
     </div>
 
-    <div id="navbarBasicExample" class="navbar-menu">
-      <div class="navbar-end">
-        <div class="navbar-item"></div>
-        <a class="navbar-item" href="#home">
+    <div id="navbarBasicExample" className="navbar-menu">
+      <div className="navbar-end">
+        <div className="navbar-item"></div>
+        <a className="navbar-item" href="#home">
           Home
         </a>
-        <a class="navbar-item" href="#about">
+        <a className="navbar-item" href="#about">
           About
         </a>
-        <a class="navbar-item" href="#education">
+        <a className="navbar-item" href="#education">
           Education
         </a>
-        <a class="navbar-item" href="#portfolio">
+        <a className="navbar-item" href="#portfolio">
           Portfolio
         </a>
-        <a class="navbar-item" href="#contact">
+        <a className="navbar-item" href="#contact">
           Contact
         </a>
       </div>
@@ -47,4 +45,4 @@ const NavBar = () => (
   </nav>
 );
 
-export default NavBar;
+export default Navbar;
