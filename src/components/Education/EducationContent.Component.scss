@@ -1,0 +1,26 @@
+.educationContent {
+  .rows {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .row {
+      align-items: center;
+
+      .title {
+        padding-bottom: 0;
+      }
+      ul {
+        width: fit-content;
+        text-align: left;
+        font-size: larger;
+
+        li {
+          font-size: medium;
+          list-style-type: none;
+        }
+      }
+    }
+  }
+}

@@ -1,6 +1,7 @@
+import profile_pic from "../../assets/img/profile_pic_small.jpeg";
+import Heading from "../Heading";
+
 import "./About.Component.scss";
-import profile_pic from "../assets/img/profile_pic_small.jpeg";
-import Heading from "./Heading";
 
 const About = () => (
   <div id="about" className="about section has-bottom-border ">

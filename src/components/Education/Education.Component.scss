@@ -1,0 +1,33 @@
+@import "../../App.scss";
+
+#education {
+  .row {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    // margin-bottom: 2.5rem;
+
+    .columns {
+      width: 350px;
+      height: min-content;
+
+      .column {
+        margin: 0 10px;
+
+        .button {
+          border: none;
+
+          &.selected {
+            border-bottom: 1px solid $grey-light;
+          }
+        }
+      }
+
+      .has-vertical-divider {
+        border-left: 1px solid $grey;
+        position: relative;
+        left: -3px;
+      }
+    }
+  }
+}

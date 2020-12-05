@@ -1,5 +1,5 @@
 import "./Contact.Components.scss";
-import Heading from "./Heading";
+import Heading from "../Heading";
 
 const Contact = () => (
   <div id="contact" className="contact section">

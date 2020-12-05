@@ -1,5 +1,7 @@
 .img-container {
   width: 250px;
+  display: flex !important;
+  justify-content: center;
 
   .profile_pic {
     width: inherit;
