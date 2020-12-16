@@ -21,13 +21,14 @@ const About = () => (
           to web development and A.I.
         </p>
         <br />
-        <div className="content">
+        <div className="content" style={{ textAlign: "center" }}>
           <h4>
             <a href="#contact">Let's connect</a>
           </h4>
         </div>
-
-        <button className="button is-primary">Resume</button>
+        <div className="resume-btn">
+          <button className="button is-primary">Resume</button>
+        </div>
       </div>
     </div>
   </div>

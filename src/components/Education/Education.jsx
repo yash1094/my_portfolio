@@ -9,7 +9,7 @@ const Education = () => {
   return (
     <div id="education" className="education section has-bottom-border">
       <div className="row mb-6">
-        <div className="columns">
+        <div className="columns is-mobile">
           <div className="column">
             <button
               className={

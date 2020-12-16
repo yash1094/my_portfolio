@@ -1,10 +1,21 @@
-.img-container {
-  width: 250px;
-  display: flex !important;
-  justify-content: center;
+#about {
+  .img-container {
+    width: 250px;
+    display: flex !important;
+    justify-content: center;
 
-  .profile_pic {
-    width: inherit;
-    border-radius: 15px;
+    .profile_pic {
+      width: inherit;
+      border-radius: 15px;
+    }
+  }
+
+  .columns {
+    .column {
+      .resume-btn {
+        display: flex;
+        justify-content: center;
+      }
+    }
   }
 }
