@@ -2,7 +2,7 @@ import ReactTypingEffect from "react-typing-effect";
 import "./Home.Component.scss";
 
 const Home = () => (
-  <section id="home" class="hero home section has-bottom-border">
+  <section id="home" className="hero home section">
     <div className="home-cover">
       <div className="hero-body">
         <div className="container">

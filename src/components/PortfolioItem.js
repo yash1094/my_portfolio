@@ -12,8 +12,8 @@ const PortfolioItem = ({ img_src, alt, title, desc, techStack }) => (
           <p>{desc}</p>
           <p>Technology stack used to build this app:</p>
           <ul>
-            {techStack.map((tech) => (
-              <li>{tech}</li>
+            {techStack.map((tech, i) => (
+              <li key={i}>{tech}</li>
             ))}
           </ul>
         </div>

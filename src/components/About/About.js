@@ -4,7 +4,7 @@ import Heading from "../Heading";
 import "./About.Component.scss";
 
 const About = () => (
-  <div id="about" className="about section has-bottom-border ">
+  <div id="about" className="about section  ">
     <Heading title="About" />
     <div className="columns is-vcentered">
       <div className="column">
@@ -22,7 +22,9 @@ const About = () => (
         </p>
         <br />
         <div className="content">
-          <a href="#contact">Let's connect</a>
+          <h4>
+            <a href="#contact">Let's connect</a>
+          </h4>
         </div>
 
         <button className="button is-primary">Resume</button>

@@ -3,4 +3,37 @@
   position: absolute;
   top: 0;
   right: 0;
+  z-index: 1;
+  background: transparent;
+}
+.navbar {
+  background: transparent;
+  border: none;
+
+  .navbar-end {
+    height: max-content;
+  }
+
+  .navbar-mobile {
+    .nav-slider {
+      position: absolute;
+      left: 50%;
+      width: 50%;
+      height: 100vh;
+      padding-top: 10px;
+      background-color: rgba($color: #030202, $alpha: 0.75);
+      transition: all 1s ease-in-out;
+
+      &.close {
+        transform: translateX(100%);
+        opacity: 0;
+      }
+    }
+  }
+  .navbar-item {
+    a {
+      text-decoration: none;
+      color: white;
+    }
+  }
 }
