@@ -27,7 +27,12 @@ const About = () => (
           </h4>
         </div>
         <div className="resume-btn">
-          <button className="button is-primary">Resume</button>
+          <a
+            className="button is-primary"
+            href="https://yash1094.github.io/resume.pdf"
+          >
+            Resume
+          </a>
         </div>
       </div>
     </div>
