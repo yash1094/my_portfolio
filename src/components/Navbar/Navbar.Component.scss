@@ -21,7 +21,7 @@
       width: 50%;
       height: 100vh;
       padding-top: 10px;
-      background-color: rgba($color: #030202, $alpha: 0.75);
+      background-color: rgba(darken(#293241, 15%), $alpha: 0.75);
       transition: all 1s ease-in-out;
 
       &.close {

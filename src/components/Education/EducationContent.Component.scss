@@ -1,4 +1,8 @@
 .educationContent {
+  .box {
+    width: max-content;
+    margin: 0 auto;
+  }
   .rows {
     display: flex;
     flex-direction: column;
