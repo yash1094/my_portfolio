@@ -1,10 +1,7 @@
 @charset "utf-8";
 // Import a Google Font
 @import url("https://fonts.googleapis.com/css?family=Nunito:400,700");
-// @import "./variables";
-// @import "./overrides";
-// Set your brand colors
-// $purple: #b35393;
+
 $gunmetal: #293241;
 $burnt-sienna: #ee6c4d;
 $light-cyan: #e0fbfc;
@@ -16,6 +13,8 @@ $grey-dark: hsl(0, 0%, 29%);
 $grey: hsl(0, 0%, 48%);
 $grey-light: hsl(0, 0%, 71%);
 $grey-lighter: hsl(0, 0%, 86%);
+
+$family-sans-serif: "Nunito", sans-serif;
 
 // $background: $gunmetal;
 $body-background-color: $gunmetal;
