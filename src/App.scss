@@ -6,8 +6,9 @@ $gunmetal: #293241;
 $burnt-sienna: #ee6c4d;
 $light-cyan: #e0fbfc;
 $pale-cerulean: #98c1d9;
-$bdazzled-blue: #3d5a80;
-$primary: $pale-cerulean !default;
+$bdazzled-blue: #2e4561;
+// $bdazzled-blue: #3d5a80;
+$primary: #b4726a !default;
 
 $grey-dark: hsl(0, 0%, 29%);
 $grey: hsl(0, 0%, 48%);
@@ -32,7 +33,7 @@ $link-hover-border: $grey-dark;
 $link-active-border: $grey;
 
 $button-color: $text;
-$button-background-color: rgba($pale-cerulean, 0.6);
+$button-background-color: rgba($bdazzled-blue, 0.6);
 // $button-border-color: $grey-dark;
 $button-hover-color: $grey-lighter;
 $button-focus: $grey-light;
