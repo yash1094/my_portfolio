@@ -1,31 +1,60 @@
 @charset "utf-8";
 // Import a Google Font
 @import url("https://fonts.googleapis.com/css?family=Nunito:400,700");
-@import "./variables";
-@import "./overrides";
+// @import "./variables";
+// @import "./overrides";
 // Set your brand colors
 // $purple: #b35393;
+$gunmetal: #293241;
+$burnt-sienna: #ee6c4d;
+$light-cyan: #e0fbfc;
+$pale-cerulean: #98c1d9;
+$bdazzled-blue: #3d5a80;
+$primary: $pale-cerulean !default;
 
-// $pink: #fa7c91;
-// $brown: #757763;
-// $beige-light: #d0d1;
-// $beige-lighter: #eff0eb;
-// $grey-accent: hsl(0, 0%, 14%); // Update Bulma's global variables
-// $family-sans-serif: "Nunito", sans-serif;
-// $grey-dark: $brown;
-// $grey-light: $beige-light;
-// $primary: $purple;
-// $link: $pink;
-// $widescreen-enabled: false;
-// $fullhd-enabled: false;
-// // Update some of Bulma's component variables
+$grey-dark: hsl(0, 0%, 29%);
+$grey: hsl(0, 0%, 48%);
+$grey-light: hsl(0, 0%, 71%);
+$grey-lighter: hsl(0, 0%, 86%);
 
-// $control-border-width: 2px;
-// $input-border-color: transparent;
-// $input-shadow: none;
-// $footer-background-color: rgba(212, 206, 206, 0.178);
+// $background: $gunmetal;
+$body-background-color: $gunmetal;
+$footer-background-color: darken($gunmetal, 8%);
+$text: $light-cyan;
+$text-light: lighten($text, 10);
+$text-strong: darken($text, 5);
 
-// Import only what you need from Bulma
+$link: $burnt-sienna;
+
+$link-hover: $burnt-sienna;
+$link-focus: $burnt-sienna;
+$link-active: $burnt-sienna;
+$link-hover-border: $grey-dark;
+$link-active-border: $grey;
+
+$button-color: $text;
+$button-background-color: rgba($pale-cerulean, 0.6);
+// $button-border-color: $grey-dark;
+$button-hover-color: $grey-lighter;
+$button-focus: $grey-light;
+$button-active-color: $grey-light;
+
+$box-color: $text;
+$box-background-color: $bdazzled-blue;
+$box-shadow: none;
+
+$navbar-background-color: $body-background-color;
+$navbar-item-color: $light-cyan;
+$navbar-item-hover-color: $light-cyan;
+$navbar-item-hover-background-color: rgba($light-cyan, 0.12);
+$navbar-item-active-color: $link;
+$navbar-item-active-background-color: $navbar-item-hover-background-color;
+
+$navbar-dropdown-background-color: $body-background-color;
+$navbar-dropdown-item-hover-color: $light-cyan;
+$navbar-dropdown-item-hover-background-color: $navbar-item-hover-background-color;
+$navbar-dropdown-item-active-background-color: $navbar-item-hover-background-color;
+$navbar-dropdown-arrow: $light-cyan;
 @import "../node_modules/bulma/bulma.sass";
 
 body {
