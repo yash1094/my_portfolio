@@ -3,13 +3,13 @@
     width: max-content;
     margin: 0 auto;
   }
-  .rows {
+  .columns {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 
-    .row {
+    .column {
       align-items: center;
 
       .title {

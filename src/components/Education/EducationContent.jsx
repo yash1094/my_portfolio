@@ -6,23 +6,23 @@ const EducationContent = () => {
   return (
     <div className="educationContent">
       <div className="box">
-        <div className="rows mb-5">
-          <div className="row">
+        <div className="columns mb-5">
+          <div className="column">
             <p className="title is-5 mr-3">School :</p>
             <p className="subtitle">Ontario Tech University, ON</p>
           </div>
-          <div className="row">
+          <div className="column">
             <p className="title is-5 mr-3">Program :</p>
             <p className="subtitle">Bachelor of Science, Computer Science</p>
           </div>
-          <div className="row">
+          <div className="column">
             <p className="title is-5 mr-3">Graduating :</p>
-            <p className="subtitle">2020</p>
+            <p className="subtitle">2021</p>
           </div>
         </div>
 
-        <div className="rows">
-          <div className="row">
+        <div className="columns">
+          <div className="column">
             <ul className="">
               Relevent courses:
               <li className="mt-2">- CSCI 2050U – Computer Architecture</li>
